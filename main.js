@@ -1,10 +1,15 @@
 function buttonClicked() {
 	console.log("button was clicked!");
 
-	let newText = "BUTTON WAS CLICKED";
+	count += 1;
 
-	let buttonDiv = document.getElementByID("button-div;");
+	let newText = "BUTTON WAS CLICKED" + count;
 
-	buttonDiv.innerHTML = newText
+	let buttonDiv = document.getElementByID("button-div");
+
+	buttonDiv.innerHTML = newText;
+
+	count += 1;
 
 }
+
